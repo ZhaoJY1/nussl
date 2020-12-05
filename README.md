@@ -140,6 +140,13 @@ nussl is on the Python Package Index (PyPI), so it is easy to install with pip:
 ```
 $ pip install nussl
 ```
+**note**: if failed on Windows, try:
+`pip install -r requirements.txt`
+`conda install pytorch`
+`pip install pytorch-ignite`
+`conda install ffmpeg`
+Then it should be able to be used in Jupyter-notebook.
+If you want to import `nussl` in IDE like `spyder`, you need to install SoX on Windows from [here](https://sourceforge.net/projects/sox/files/sox/) and add it to path.
 
 **Note: Requires python 3.7+**
 
